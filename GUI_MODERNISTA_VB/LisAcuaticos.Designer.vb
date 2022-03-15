@@ -263,7 +263,7 @@ Partial Class LisAcuaticos
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(97, 47)
         Me.Button5.TabIndex = 77
-        Me.Button5.Text = "Button5"
+        Me.Button5.Text = "Eliminar"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'LisAcuaticos
