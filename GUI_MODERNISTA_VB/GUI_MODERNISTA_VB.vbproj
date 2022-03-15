@@ -72,53 +72,59 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="conexiones.vb" />
-    <Compile Include="Form1.vb">
+    <Compile Include="Enfermeria.Designer.vb">
+      <DependentUpon>Enfermeria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enfermeria.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Menu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="LisAcuaticos.Designer.vb">
+      <DependentUpon>LisAcuaticos.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form3.vb">
+    <Compile Include="LisAcuaticos.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="Rgistraranimal.Designer.vb">
+      <DependentUpon>Rgistraranimal.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="Rgistraranimal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <Compile Include="Venta.Designer.vb">
+      <DependentUpon>Venta.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form5.vb">
+    <Compile Include="Venta.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.vb">
-      <DependentUpon>Form6.vb</DependentUpon>
+    <Compile Include="Precios.Designer.vb">
+      <DependentUpon>Precios.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form6.vb">
+    <Compile Include="Precios.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDashboard.Designer.vb">
-      <DependentUpon>FormDashboard.vb</DependentUpon>
+    <Compile Include="Localizacion.Designer.vb">
+      <DependentUpon>Localizacion.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormDashboard.vb">
+    <Compile Include="Localizacion.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProductos.Designer.vb">
-      <DependentUpon>FormProductos.vb</DependentUpon>
+    <Compile Include="LisMamimeros.Designer.vb">
+      <DependentUpon>LisMamimeros.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormProductos.vb">
+    <Compile Include="LisMamimeros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LisAves.Designer.vb">
+      <DependentUpon>LisAves.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LisAves.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -138,26 +144,38 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Enfermeria.resx">
+      <DependentUpon>Enfermeria.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="Localizacion.resx">
+      <DependentUpon>Localizacion.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDashboard.resx">
-      <DependentUpon>FormDashboard.vb</DependentUpon>
+    <EmbeddedResource Include="LisAcuaticos.resx">
+      <DependentUpon>LisAcuaticos.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormProductos.resx">
-      <DependentUpon>FormProductos.vb</DependentUpon>
+    <EmbeddedResource Include="Precios.resx">
+      <DependentUpon>Precios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rgistraranimal.resx">
+      <DependentUpon>Rgistraranimal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LisMamimeros.resx">
+      <DependentUpon>LisMamimeros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LisAves.resx">
+      <DependentUpon>LisAves.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta.resx">
+      <DependentUpon>Venta.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -192,6 +210,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pngwing.com %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grupo-de-pescados-15070223.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grupo-de-pescados-14950647.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-bird-clip-art-birds-5a8dffa4774f92.9702457615192554604887.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7500e35f18a10625a84843c84c51e463--couple-art-couple-things.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-hand-painted-head-element-of-ferocious-tiger-png-image_946571.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05a4e0e651735015bca1bc661d743517.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4f1f130bc66a4371622a0e47e116d8d4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %287%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

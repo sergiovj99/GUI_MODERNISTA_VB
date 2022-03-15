@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Menu
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Menu))
         Me.PanelBarraTitulo = New System.Windows.Forms.Panel()
         Me.btnRestaurar = New System.Windows.Forms.Button()
         Me.btnMinimizar = New System.Windows.Forms.Button()
@@ -31,21 +31,21 @@ Partial Class Form1
         Me.btnCerrar = New System.Windows.Forms.Button()
         Me.PanelMenu = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.btnEnfermeria = New System.Windows.Forms.Button()
         Me.btnMenu = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnPrecio = New System.Windows.Forms.Button()
         Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnVenta = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnRegistroani = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnAcuaticos = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.btnProductos = New System.Windows.Forms.Button()
+        Me.btnAves = New System.Windows.Forms.Button()
         Me.Panel10 = New System.Windows.Forms.Panel()
-        Me.btnDashBoard = New System.Windows.Forms.Button()
+        Me.btnMamiferos = New System.Windows.Forms.Button()
         Me.tmOCULTAR = New System.Windows.Forms.Timer(Me.components)
         Me.tmMOSTRAR = New System.Windows.Forms.Timer(Me.components)
         Me.PanelContenedor = New System.Windows.Forms.Panel()
@@ -136,21 +136,21 @@ Partial Class Form1
         '
         Me.PanelMenu.BackColor = System.Drawing.Color.MediumTurquoise
         Me.PanelMenu.Controls.Add(Me.Panel1)
-        Me.PanelMenu.Controls.Add(Me.Button5)
+        Me.PanelMenu.Controls.Add(Me.btnEnfermeria)
         Me.PanelMenu.Controls.Add(Me.btnMenu)
         Me.PanelMenu.Controls.Add(Me.PictureBox5)
         Me.PanelMenu.Controls.Add(Me.Panel6)
-        Me.PanelMenu.Controls.Add(Me.Button4)
+        Me.PanelMenu.Controls.Add(Me.btnPrecio)
         Me.PanelMenu.Controls.Add(Me.Panel5)
-        Me.PanelMenu.Controls.Add(Me.Button3)
+        Me.PanelMenu.Controls.Add(Me.btnVenta)
         Me.PanelMenu.Controls.Add(Me.Panel4)
-        Me.PanelMenu.Controls.Add(Me.Button1)
+        Me.PanelMenu.Controls.Add(Me.btnRegistroani)
         Me.PanelMenu.Controls.Add(Me.Panel3)
-        Me.PanelMenu.Controls.Add(Me.Button2)
+        Me.PanelMenu.Controls.Add(Me.btnAcuaticos)
         Me.PanelMenu.Controls.Add(Me.Panel2)
-        Me.PanelMenu.Controls.Add(Me.btnProductos)
+        Me.PanelMenu.Controls.Add(Me.btnAves)
         Me.PanelMenu.Controls.Add(Me.Panel10)
-        Me.PanelMenu.Controls.Add(Me.btnDashBoard)
+        Me.PanelMenu.Controls.Add(Me.btnMamiferos)
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenu.Location = New System.Drawing.Point(0, 40)
         Me.PanelMenu.Name = "PanelMenu"
@@ -165,24 +165,24 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(5, 50)
         Me.Panel1.TabIndex = 12
         '
-        'Button5
+        'btnEnfermeria
         '
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
-        Me.Button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button5.Location = New System.Drawing.Point(2, 457)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(220, 50)
-        Me.Button5.TabIndex = 14
-        Me.Button5.Text = "   Enfermeria"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btnEnfermeria.FlatAppearance.BorderSize = 0
+        Me.btnEnfermeria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnEnfermeria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnEnfermeria.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnEnfermeria.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEnfermeria.ForeColor = System.Drawing.Color.White
+        Me.btnEnfermeria.Image = CType(resources.GetObject("btnEnfermeria.Image"), System.Drawing.Image)
+        Me.btnEnfermeria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnEnfermeria.Location = New System.Drawing.Point(2, 457)
+        Me.btnEnfermeria.Name = "btnEnfermeria"
+        Me.btnEnfermeria.Size = New System.Drawing.Size(210, 50)
+        Me.btnEnfermeria.TabIndex = 14
+        Me.btnEnfermeria.Text = "   ENFERMERIA"
+        Me.btnEnfermeria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnEnfermeria.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnEnfermeria.UseVisualStyleBackColor = True
         '
         'btnMenu
         '
@@ -214,23 +214,23 @@ Partial Class Form1
         Me.Panel6.Size = New System.Drawing.Size(5, 50)
         Me.Panel6.TabIndex = 11
         '
-        'Button4
+        'btnPrecio
         '
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
-        Me.Button4.Location = New System.Drawing.Point(10, 401)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(220, 50)
-        Me.Button4.TabIndex = 10
-        Me.Button4.Text = "    Compra de animales"
-        Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnPrecio.FlatAppearance.BorderSize = 0
+        Me.btnPrecio.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnPrecio.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnPrecio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPrecio.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPrecio.ForeColor = System.Drawing.Color.White
+        Me.btnPrecio.Image = CType(resources.GetObject("btnPrecio.Image"), System.Drawing.Image)
+        Me.btnPrecio.Location = New System.Drawing.Point(4, 401)
+        Me.btnPrecio.Name = "btnPrecio"
+        Me.btnPrecio.Size = New System.Drawing.Size(198, 50)
+        Me.btnPrecio.TabIndex = 10
+        Me.btnPrecio.Text = "    PRECIOS"
+        Me.btnPrecio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnPrecio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnPrecio.UseVisualStyleBackColor = True
         '
         'Panel5
         '
@@ -240,23 +240,23 @@ Partial Class Form1
         Me.Panel5.Size = New System.Drawing.Size(5, 50)
         Me.Panel5.TabIndex = 9
         '
-        'Button3
+        'btnVenta
         '
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button3.Location = New System.Drawing.Point(0, 345)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(220, 50)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "  Cambio de       localización"
-        Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnVenta.FlatAppearance.BorderSize = 0
+        Me.btnVenta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnVenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnVenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVenta.ForeColor = System.Drawing.Color.White
+        Me.btnVenta.Image = CType(resources.GetObject("btnVenta.Image"), System.Drawing.Image)
+        Me.btnVenta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnVenta.Location = New System.Drawing.Point(0, 345)
+        Me.btnVenta.Name = "btnVenta"
+        Me.btnVenta.Size = New System.Drawing.Size(220, 50)
+        Me.btnVenta.TabIndex = 8
+        Me.btnVenta.Text = "  ANIMALES EN VENTA"
+        Me.btnVenta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnVenta.UseVisualStyleBackColor = True
         '
         'Panel4
         '
@@ -266,23 +266,23 @@ Partial Class Form1
         Me.Panel4.Size = New System.Drawing.Size(5, 50)
         Me.Panel4.TabIndex = 7
         '
-        'Button1
+        'btnRegistroani
         '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(8, 289)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(212, 50)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "    Caracteristicas   localización"
-        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnRegistroani.FlatAppearance.BorderSize = 0
+        Me.btnRegistroani.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnRegistroani.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnRegistroani.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnRegistroani.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRegistroani.ForeColor = System.Drawing.Color.White
+        Me.btnRegistroani.Image = CType(resources.GetObject("btnRegistroani.Image"), System.Drawing.Image)
+        Me.btnRegistroani.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnRegistroani.Location = New System.Drawing.Point(6, 289)
+        Me.btnRegistroani.Name = "btnRegistroani"
+        Me.btnRegistroani.Size = New System.Drawing.Size(209, 50)
+        Me.btnRegistroani.TabIndex = 6
+        Me.btnRegistroani.Text = "    REGISTRAR ANIMAL"
+        Me.btnRegistroani.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnRegistroani.UseVisualStyleBackColor = True
         '
         'Panel3
         '
@@ -292,24 +292,24 @@ Partial Class Form1
         Me.Panel3.Size = New System.Drawing.Size(5, 50)
         Me.Panel3.TabIndex = 5
         '
-        'Button2
+        'btnAcuaticos
         '
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.Location = New System.Drawing.Point(3, 229)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(214, 59)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "  ACUATICOS"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnAcuaticos.FlatAppearance.BorderSize = 0
+        Me.btnAcuaticos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnAcuaticos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnAcuaticos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAcuaticos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAcuaticos.ForeColor = System.Drawing.Color.White
+        Me.btnAcuaticos.Image = CType(resources.GetObject("btnAcuaticos.Image"), System.Drawing.Image)
+        Me.btnAcuaticos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAcuaticos.Location = New System.Drawing.Point(1, 229)
+        Me.btnAcuaticos.Name = "btnAcuaticos"
+        Me.btnAcuaticos.Size = New System.Drawing.Size(214, 59)
+        Me.btnAcuaticos.TabIndex = 4
+        Me.btnAcuaticos.Text = "  ACUATICOS"
+        Me.btnAcuaticos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAcuaticos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnAcuaticos.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -319,24 +319,24 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(5, 50)
         Me.Panel2.TabIndex = 3
         '
-        'btnProductos
+        'btnAves
         '
-        Me.btnProductos.FlatAppearance.BorderSize = 0
-        Me.btnProductos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.btnProductos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
-        Me.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnProductos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnProductos.ForeColor = System.Drawing.Color.White
-        Me.btnProductos.Image = CType(resources.GetObject("btnProductos.Image"), System.Drawing.Image)
-        Me.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProductos.Location = New System.Drawing.Point(2, 174)
-        Me.btnProductos.Name = "btnProductos"
-        Me.btnProductos.Size = New System.Drawing.Size(218, 57)
-        Me.btnProductos.TabIndex = 2
-        Me.btnProductos.Text = "  AVES"
-        Me.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnProductos.UseVisualStyleBackColor = True
+        Me.btnAves.FlatAppearance.BorderSize = 0
+        Me.btnAves.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnAves.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnAves.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAves.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAves.ForeColor = System.Drawing.Color.White
+        Me.btnAves.Image = CType(resources.GetObject("btnAves.Image"), System.Drawing.Image)
+        Me.btnAves.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAves.Location = New System.Drawing.Point(12, 174)
+        Me.btnAves.Name = "btnAves"
+        Me.btnAves.Size = New System.Drawing.Size(202, 53)
+        Me.btnAves.TabIndex = 2
+        Me.btnAves.Text = "  AVES"
+        Me.btnAves.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnAves.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnAves.UseVisualStyleBackColor = True
         '
         'Panel10
         '
@@ -346,24 +346,24 @@ Partial Class Form1
         Me.Panel10.Size = New System.Drawing.Size(5, 50)
         Me.Panel10.TabIndex = 1
         '
-        'btnDashBoard
+        'btnMamiferos
         '
-        Me.btnDashBoard.FlatAppearance.BorderSize = 0
-        Me.btnDashBoard.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.btnDashBoard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
-        Me.btnDashBoard.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnDashBoard.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDashBoard.ForeColor = System.Drawing.Color.White
-        Me.btnDashBoard.Image = CType(resources.GetObject("btnDashBoard.Image"), System.Drawing.Image)
-        Me.btnDashBoard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnDashBoard.Location = New System.Drawing.Point(2, 121)
-        Me.btnDashBoard.Name = "btnDashBoard"
-        Me.btnDashBoard.Size = New System.Drawing.Size(214, 50)
-        Me.btnDashBoard.TabIndex = 0
-        Me.btnDashBoard.Text = "MAMÍFEROS TERRESTRES"
-        Me.btnDashBoard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnDashBoard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btnDashBoard.UseVisualStyleBackColor = True
+        Me.btnMamiferos.FlatAppearance.BorderSize = 0
+        Me.btnMamiferos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(145, Byte), Integer), CType(CType(110, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.btnMamiferos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(55, Byte), Integer), CType(CType(70, Byte), Integer))
+        Me.btnMamiferos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMamiferos.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMamiferos.ForeColor = System.Drawing.Color.White
+        Me.btnMamiferos.Image = CType(resources.GetObject("btnMamiferos.Image"), System.Drawing.Image)
+        Me.btnMamiferos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnMamiferos.Location = New System.Drawing.Point(2, 120)
+        Me.btnMamiferos.Name = "btnMamiferos"
+        Me.btnMamiferos.Size = New System.Drawing.Size(214, 57)
+        Me.btnMamiferos.TabIndex = 0
+        Me.btnMamiferos.Text = "  MAMÍFEROS TERRESTRES"
+        Me.btnMamiferos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.btnMamiferos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.btnMamiferos.UseVisualStyleBackColor = True
         '
         'tmOCULTAR
         '
@@ -375,8 +375,7 @@ Partial Class Form1
         '
         'PanelContenedor
         '
-        Me.PanelContenedor.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.PanelContenedor.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.PanelContenedor.BackColor = System.Drawing.SystemColors.Control
         Me.PanelContenedor.BackgroundImage = Global.GUI_MODERNISTA_VB.My.Resources.Resources.seres_vivos__1_
         Me.PanelContenedor.Cursor = System.Windows.Forms.Cursors.Default
@@ -385,7 +384,7 @@ Partial Class Form1
         Me.PanelContenedor.Size = New System.Drawing.Size(932, 560)
         Me.PanelContenedor.TabIndex = 2
         '
-        'Form1
+        'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -394,7 +393,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PanelMenu)
         Me.Controls.Add(Me.PanelBarraTitulo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Form1"
+        Me.Name = "Menu"
         Me.Text = "Form1"
         Me.PanelBarraTitulo.ResumeLayout(False)
         Me.PanelMenu.ResumeLayout(False)
@@ -406,18 +405,18 @@ Partial Class Form1
     Friend WithEvents PanelBarraTitulo As System.Windows.Forms.Panel
     Friend WithEvents PanelMenu As System.Windows.Forms.Panel
     Friend WithEvents PanelContenedor As System.Windows.Forms.Panel
-    Friend WithEvents btnDashBoard As System.Windows.Forms.Button
+    Friend WithEvents btnMamiferos As System.Windows.Forms.Button
     Friend WithEvents Panel10 As System.Windows.Forms.Panel
     Friend WithEvents Panel3 As System.Windows.Forms.Panel
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents btnAcuaticos As System.Windows.Forms.Button
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
-    Friend WithEvents btnProductos As System.Windows.Forms.Button
+    Friend WithEvents btnAves As System.Windows.Forms.Button
     Friend WithEvents Panel6 As System.Windows.Forms.Panel
-    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents btnPrecio As System.Windows.Forms.Button
     Friend WithEvents Panel5 As System.Windows.Forms.Panel
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents btnVenta As System.Windows.Forms.Button
     Friend WithEvents Panel4 As System.Windows.Forms.Panel
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnRegistroani As System.Windows.Forms.Button
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents btnMenu As System.Windows.Forms.PictureBox
     Friend WithEvents tmOCULTAR As System.Windows.Forms.Timer
@@ -427,5 +426,5 @@ Partial Class Form1
     Friend WithEvents btnMinimizar As System.Windows.Forms.Button
     Friend WithEvents btnRestaurar As System.Windows.Forms.Button
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button5 As Button
+    Friend WithEvents btnEnfermeria As Button
 End Class
